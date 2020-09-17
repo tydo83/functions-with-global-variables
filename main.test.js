@@ -23,8 +23,8 @@ if (typeof y === 'undefined') {
   y = undefined;
 }
 
-if (typeof squareTheNumber === 'undefined') {
-  squareTheNumber = undefined;
+if (typeof z === 'undefined') {
+  z = undefined;
 }
 
 if (typeof greeting === 'undefined') {
@@ -35,8 +35,8 @@ if (typeof firstName === 'undefined') {
   firstName = undefined;
 }
 
-if (typeof calling === 'undefined') {
-  calling = undefined;
+if (typeof callStatus === 'undefined') {
+  callStatus = undefined;
 }
 
 if (typeof double === 'undefined') {
@@ -51,8 +51,8 @@ if (typeof square === 'undefined') {
   square = undefined;
 }
 
-if (typeof beingNice === 'undefined') {
-  beingNice = undefined;
+if (typeof beNice === 'undefined') {
+  beNice = undefined;
 }
 
 if (typeof fullName === 'undefined') {
@@ -79,29 +79,29 @@ describe('triple', () => {
 });
 
 describe('square', () => {
-  it(`squares the variable squareTheNumber`, () => {
+  it(`squares the variable z`, () => {
     square();
-    expect(squareTheNumber).toBe(16);
+    expect(z).toBe(16);
   })
 });
 
-describe('beingNice', () => {
+describe('beNice', () => {
   it(`says hello to the person with the first name in firstName`, () => {
-    beingNice();
+    beNice();
     expect(greeting.includes('hello') && greeting.includes(firstName)).toBe(true);
   })
 });
 
-describe('fullName', () => {
-  it(`changes the value of firstName to 'not found'`, () => {
-    fullName();
-    expect(firstName).toBe('not found')
+describe('changeName', () => {
+  it(`changes the value of firstName to 'Danger'`, () => {
+    changeName();
+    expect(firstName).toBe('Danger')
   })
 });
   
-describe('phoneCall', () => {
-  it(`changes the value of calling to be 'call ended'`, () => {
-    phoneCall();
-    expect(calling).toBe('call ended')
+describe('hangUp', () => {
+  it(`changes the value of callStatus to be 'call ended'`, () => {
+    hangUp();
+    expect(callStatus).toBe('call ended')
   })
 });
