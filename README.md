@@ -27,7 +27,7 @@ Let's start by creating our variables so that we can manipulate them later on wi
 
 * Create a variable named `x` and assign to it the value `3`.
 * Create a variable named `y` and assign to it the value `10`.
-* Create a variable called `squareTheNumber` and assign to it the value of `4`.
+* Create a variable called `z` and assign to it the value of `4`.
 * Create a variable called  `greeting` and  assign to it the string 'hello'.
 * Create a variable called  `firstName` and assign to it the string of your name.
 * Create a variable called  `callStatus` and assign to it the string 'ringing'.
@@ -41,7 +41,7 @@ Now let's make these variables useful by writing some functions!
 
 * Create a function named  `double` and have it double the value of `x`.
 * Create a function named  `triple` and have it triple the value of `y`.
-* Create a function named  `square` and have it square the value of `squareTheNumber`.
+* Create a function named  `square` and have it square the value of `z`.
 * Create a function named  `beNice` and have it change the value of greeting to the string 'hello' plus your name using the value of the variable `firstName`. You can include other characters if you wish to make it look like a nice sentence.
 * Create a function named  `changeName` and have it change the value of `firstName` to the string 'Danger'.
 * Create a function named  `hangUp` and have it change the value of `callStatus` to the string 'call ended'.
